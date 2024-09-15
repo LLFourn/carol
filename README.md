@@ -17,7 +17,7 @@ rustup target add wasm32-unknown-unknown
 ### Install `carlo` (optional)
 
 ```sh
-cargo install --path crates/carol
+cargo install --path crates/carlo
 ```
 
 Otherwise you have to run `cargo run -p carlo` form the project directory instead of running `carlo`:
