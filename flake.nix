@@ -25,7 +25,7 @@
             (import rust-overlay)
             (self: super: {
               rustToolchain = (super.rust-bin.fromRustupToolchain ({
-                channel = "1.81.0";
+                channel = "1.78.0";
               } // rustupToolchainToml));
 
               rustToolchain-nightly = (super.rust-bin.fromRustupToolchain ({
