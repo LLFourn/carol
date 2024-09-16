@@ -48,6 +48,10 @@ fn main() -> anyhow::Result<()> {
                     "url: {}",
                     server_opt.url_for(&format!("/machines/{}", machine_id))
                 );
+                println!(
+                    "http-root: {}",
+                    server_opt.url_for(&format!("/machines/{}/http", machine_id))
+                );
                 if let Some(cname) = server_opt.cname_for_machine(machine_id) {
                     println!("cname domain: {}", cname);
                 }

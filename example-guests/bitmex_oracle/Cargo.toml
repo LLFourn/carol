@@ -3,7 +3,7 @@ name = "bitmex_oracle"
 version = "0.1.0"
 edition = "2021"
 repository = "https://github.com/carol-computer/carol"
-homepage = "https://github.com/carol-computer/carol/example-guests/bitmex_oracle"
+homepage = "https://github.com/carol-computer/carol/tree/master/example-guests/bitmex_oracle"
 
 [features]
 network_tests = []

@@ -17,10 +17,17 @@ rustup target add wasm32-unknown-unknown
 ### Install `carlo` (optional)
 
 ```sh
-cargo install --path crates/carol
+cargo install --path crates/carlo
 ```
 
-Otherwise you have to run `cargo run -p carlo` form the project directory instead of running `carlo`:
+Otherwise you have to run `cargo run -p carlo` form the project directory instead of running `carlo`.
+
+You should be able to create a machine on an existing carol instance like `carol.computer`:
+
+```sh
+cd example-guests/bitmex_oracle
+carlo create --carol-url https://carol.computer
+```
 
 
 ### Run a machine locally
